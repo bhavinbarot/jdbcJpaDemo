@@ -16,7 +16,7 @@ import java.util.List;
 public class PersonJbdcDao {
 
     @Autowired
-    JdbcTemplate jdbcTemplate;
+    JdbcTemplate jdbcTemplate;  //This class is responsible for Spring JDBC CRUD operations
 
     class PersonRowMapper implements RowMapper<Person> {
         @Override
